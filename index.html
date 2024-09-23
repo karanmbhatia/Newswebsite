@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta information -->
+  <meta charset="UTF-8">
+  <title>QUIKFACT</title>
+  <!-- External stylesheet link -->
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <!-- Header section -->
+  <header class="header">
+    <!-- Website title -->
+    <h1>QUIKFACT</h1>
+    <!-- Navigation menu -->
+    <nav class="header-nav">
+      <ul>
+        <li><a href="./index_1.html">Home</a></li>
+        <li><a href="./public/business.html" >Business</a></li>
+        <li><a href="./public/Politics.html">Politics</a></li>
+        <li><a href="./public/sport.html">Sports</a></li>
+        <li><a href="./public/tech.html">Tech</a></li>
+        <li><a href="http://localhost/WebDevelopment/Newsportal/public/">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>  
+  <!-- Main content area -->
+  <main class="main">
+    <!-- Heading for latest news section -->
+    <div class="heading">
+      <h1 class="News_Heading">Latest News</h1>  
+    </div>     
+    <!-- Articles section -->
+    <div class="article-main-div" id="cards-container">
+    
+    </div>    
+    <template id="template-news-card">
+          <!-- Article card -->
+      <div class="article-content">
+        <!-- Article image -->
+        <div class="image" ><img src="https://picsum.photos/300" height="200" title="this is news" id="news-img"></div>
+        <!-- Article content -->
+        <div class="content">
+          <!-- Article title -->
+          <h2 class="text article-title" id="news-title">Article Title</h2>
+          <!-- Article source -->
+          <h6 class="text article-src" id="news-src">News source.</h6>
+          <!-- Article description-->
+          <p class="text" id="news-desc">This is description</p>
+        </div>
+      </div> 
+    </template>
+
+  </main>
+  <!-- Footer section -->
+  <footer class="footer">
+    <!-- Copyright information -->
+    <p class="footer-copyright">&copy; 2024 QUIKFACT. All rights reserved.</p>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+</html>

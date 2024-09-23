@@ -1,0 +1,144 @@
+body {
+	font-family: Arial, sans-serif;
+	line-height: 1.8;
+	color: #333;
+  }
+  
+  h2 {
+	font-size: 1.5rem;
+	margin-bottom: 0.5rem;
+  }
+  
+  a {
+	color: aliceblue;
+	text-decoration: none;
+  }
+  
+  .header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #333;
+	height: 4rem;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	margin-left: -1.15vh;
+	margin-top: -1rem;
+  }
+  h1{
+	color: white;
+	margin-left: 1vh;
+  }
+  
+  .header-nav ul {
+	list-style: none;
+	display: flex;
+  }
+  
+  .header-nav li {
+	margin-right: 1rem;
+  }
+  .main {
+	position: relative;
+	top:  4rem;
+	padding: 0rem 2rem;
+	display: flex;
+	flex-direction: column;
+  }
+
+  img{
+	height: 25vh;
+	width: 30vh;
+  }
+  .image{
+	display: flex;
+  }
+  
+  .article-content{
+	display: flex;
+	align-items: center;
+	background-color:#d5e3f1;
+	margin-bottom: 10px;
+  }
+  .content{
+	margin-left: 10%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+  }
+  .a_container{
+	display: flex;
+	width: 100%;
+	overflow: scroll;
+  }
+  .a_container::-webkit-scrollbar{
+	display: none;
+  }  
+  .a_box{
+	background-color: aliceblue;
+	margin-left: 1vh;
+  }
+  .box_content{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  .box_image{
+	height: 25vh;
+	width: 70%;
+	border-radius: 50%;
+  }
+  .News_Heading{
+	color: black;
+  }
+
+  .footer{
+	position: relative;
+	top: 4rem;
+  }
+  .main_area{
+	display: flex;
+	justify-content: space-between;
+  }
+  .recent_content{
+	color: black;
+  }
+  .main_img{
+	width: 50vh;
+	height: 70%;
+	border-radius: 20%;
+  }
+  .row{
+	display: flex;
+	flex-wrap: wrap;
+	width: 200px;
+	justify-content: space-evenly;
+	margin: 1vh;
+	
+  }
+  .column{
+	display: flex;
+	flex-direction: column;
+  }
+  .post_text{
+	margin-top: -25%;
+	margin-left: 2rem;
+	margin-bottom:  4rem;
+  }
+  .heading{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  }
+  .see_all{
+	color: #333;
+  }
+.side_bar{
+	margin-top: -6rem;
+}
+.article{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
